@@ -1,0 +1,10 @@
+[package]
+name = "ring-rsa-testing"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ring = { version = "=0.17.0-alpha.9", default-features = false, features = ["alloc", "dev_urandom_fallback"] }
+#old_ring_alpha = { package = "ring", version = "=0.17.0-alpha.8", default-features = false, features = ["alloc", "dev_urandom_fallback"] }
